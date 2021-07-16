@@ -18,7 +18,7 @@ export default class Products extends Component {
             <rect y="60" width="100" height="20"></rect>
           </svg>
           <p className=" text-2xl font-bold ml-20 -mt-7">Products</p>
-          <button class="bg-black hover:bg-red-400 text-white font-bold py-2 px-4  mt-4 -ml-6 rounded">
+          <button class="bg-black hover:bg-red-400 text-white font-bold py-2 px-4  mt-4 -ml-12 rounded">
             Let's Talk
           </button>
         </div>
@@ -44,9 +44,10 @@ export default class Products extends Component {
           >
             <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM6.79 5.093A.5.5 0 0 0 6 5.5v5a.5.5 0 0 0 .79.407l3.5-2.5a.5.5 0 0 0 0-.814l-3.5-2.5z" />
           </svg> 
-          <p className="text-2xl font-bold text-black ">Nike Shoes</p>
+          <p className="text-xl font-bold mt-11">Strategy UI UX. June 4 2021</p>
+          <p className="text-4xl font-bold text-black mt-11">Nike Shoes</p>
           
-          <p>Nike, Inc is an American multinational corporation that is engaged in the design, development, manufacturing, and worldwide marketing and sales of footwear</p>
+          <p className="mt-8" >Nike, Inc is an American multinational corporation that is engaged in the design, development, manufacturing, and worldwide marketing and sales of footwear</p>
           <Link target={"_blank"}to="/product1" without rel="noopener noreferrer"  >
           <button class="bg-black hover:bg-red-400 text-white font-bold py-2 px-4  mt-4 -ml-6 rounded">
             Next 
