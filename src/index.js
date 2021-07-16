@@ -3,17 +3,15 @@ import ReactDOM from "react-dom";
 import "./index.css";
 import reportWebVitals from "./reportWebVitals";
 import Products from "./components/Products";
-import Menu from "./components/Menu";
 
 import Product1 from "./components/Product1";
-import { BrowserRouter, Route } from "react-router-dom";
+import { BrowserRouter, Route,Switch } from "react-router-dom";
 ReactDOM.render(
   <BrowserRouter>
-    <switch>
-      <Menu />
-      <Products />
+    <Switch>
+<Route exact path="/" component={Products}/>
       <Route path="/product1" component={Product1} />
-    </switch>
+    </Switch>
   </BrowserRouter>,
   document.getElementById("root")
 );

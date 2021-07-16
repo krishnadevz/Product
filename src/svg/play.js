@@ -18,7 +18,7 @@ export default class play extends Component {
           <p className="text-2xl font-bold text-black ">Nike Shoes</p>
           
           <p>Nike, Inc is an American multinational corporation that is engaged in the design, development, manufacturing, and worldwide marketing and sales of footwear</p>
-          <Link target={"_blank"}to="/product1" >
+          <Link target={"_blank"}to="/product1" without rel="noopener noreferrer"  >
           <button class="bg-black hover:bg-red-400 text-white font-bold py-2 px-4  mt-4 -ml-6 rounded">
             Next 
           </button>
